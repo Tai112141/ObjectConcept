@@ -5,7 +5,7 @@ public abstract class Shape {
 	protected double area;
 	abstract double getArea();
 	public String toString() {
-		return "color :"+color+"\nArea :"+area;
+		return "\ncolor :"+color+"\nArea :"+area;
 		
 		
 	}
