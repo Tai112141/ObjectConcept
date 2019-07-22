@@ -1,16 +1,16 @@
 package th.ac.npru.swe.supatra.oop;
 
 public class Rectangle extends Shape {
-	int length;
-	int width;
+	private int length;
+	private int width;
 
-	Rectangle(int lengValue, int widthValue) {
+	public Rectangle(int lengValue, int widthValue) {
 		length = lengValue;
 		width = widthValue;
 	}
 
 	@Override
-	double getArea() {
+	public double getArea() {
 		area = length * width;
 		return 0;
 	}
